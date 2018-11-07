@@ -1,0 +1,151 @@
+/*@headerTextColor: #2d9cd0;*/
+@themeColor: #9d0006;
+@headerTextColor: #444;
+@mainTextColor: #333;
+@linkTextColor: @headerTextColor;
+@footerTextColor: #444;
+@maxWidth: 800px;
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  /*margin-top: 60px;*/
+}
+
+body {
+  margin: 0;
+  color: @mainTextColor;
+}
+
+a {
+  color: @headerTextColor;
+}
+a:hover {
+  background-color: @themeColor;
+  color: #fff;
+}
+
+.have-no-content {
+  padding-top: 20px;
+  text-align: center;
+  color: #aaa;
+  font-size: 12px;
+}
+header {
+  margin: 0;
+  width: 100%;
+  background-color: #eee;
+  /*height: 50px;*/
+
+  .header-wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 4px;
+    width: 100%;
+    max-width: @maxWidth;
+
+    .blog-title {
+      float: left;
+      margin: 0;
+      font-size: 12px;
+      color: @headerTextColor;
+    }
+
+    nav {
+      float: right;
+      overflow: hidden;
+      margin: 0 auto;
+
+      a {
+        margin-left: 7px;
+        font-size: 12px;
+        text-decoration: none;
+      }
+
+      .nav-active {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.postBodyStyle {
+  p, li, a, div, pre, code {
+    font-size: 14px;
+  }
+  p, li, div {
+    color: @mainTextColor;
+    line-height: 1.7;
+  }
+  a {
+    text-decoration: underline;
+    color: @themeColor;
+  }
+  a:hover {
+    background-color: @themeColor;
+    color: #fff;
+  }
+}
+
+.page {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 100%;
+  max-width: @maxWidth;
+
+  .loading {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .post-title {
+    margin: 10px 0;
+    a {
+      text-decoration: none;
+      color: @themeColor;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+  .post-time {
+    font-size: 12px;
+    color: #666;
+  }
+  .post-body {
+    padding-top: 25px;
+    .postBodyStyle;
+  }
+
+  .archive {
+    list-style: none;
+    .archive-year-title {
+      color: @themeColor;
+    }
+    .archive-month {
+      list-style: none;
+      padding-left: 5px;
+      .archive-month-title {
+        font-size: 18px;
+      }
+    }
+    .archive-posts {
+      line-height: 150%;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+footer {
+  .footer-content {
+    padding: 20px 0;
+    color: @footerTextColor;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
