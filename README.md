@@ -7,4 +7,6 @@
 #### [View Live Hux Blog &rarr;](http://huangxuan.me)
 
 ## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
-To Do: Movies Watch list 
+To Do: 
+底部链接
+Movies Watch list 
