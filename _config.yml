@@ -2,7 +2,7 @@
 title: Wiz's Blog
 SEOTitle: Wiz的博客 | Wiz's Blog
 header-img: img/home-bg.jpg
-email:  huxpro@gmail.com
+email:  #huxpro@gmail.com
 description: "Wiz的博客"
 keyword: "wiz-lee"
 url: "https://wizlee.cn"              # your host, for absolute URL
@@ -80,7 +80,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 # Friends
-friends: [
+#friends: [
     {
         title: "Hux Blog",
         href: "http://huangxuan.me"
